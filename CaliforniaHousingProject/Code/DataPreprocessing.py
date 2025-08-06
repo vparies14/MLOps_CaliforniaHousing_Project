@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 import os
 
-def load_and_preprocess(data_dir='data/processed'):
+def load_and_preprocess(data_dir='Data/ProcessedData'):
     # Load California Housing dataset
     data = fetch_california_housing(as_frame=True)
     df = data.frame
